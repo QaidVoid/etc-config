@@ -1,0 +1,9 @@
+CFLAGS="-flto=16 -march=native -O2 -pipe"
+CXXFLAGS="${CFLAGS}"
+LDFLAGS="-Wl,--defsym=__gentoo_check_ldflags__=0"
+
+CC="gcc"
+CXX="g++"
+AR="gcc-ar"
+NM="gcc-nm"
+RANLIB="gcc-ranlib"
