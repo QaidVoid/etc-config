@@ -1,11 +1,12 @@
 app-admin/doas persist
-app-editors/emacs xft gui harfbuzz json dynamic-loading
+app-editors/emacs xft gui harfbuzz jit json dynamic-loading
 app-emulation/libvirt policykit lvm
 app-emulation/qemu opengl usbredir spice virgl virtfs
 app-emulation/virt-manager gtk policykit
 app-emulation/wine-staging v4l vkd3d
 app-text/texlive extra humanities luatex music png publishers science truetype
 gui-apps/waybar mpd network pulseaudio tray wifi
+gui-apps/wbg jpeg png
 gui-libs/wlroots X
 mail-client/neomutt gpgme sasl
 media-gfx/fontforge gtk png svg woff2
@@ -23,6 +24,7 @@ net-wireless/bluez experimental
 sys-apps/bubblewrap -suid
 sys-apps/flatpak policykit X
 sys-devel/clang default-compiler-rt default-lld llvm-libunwind
+sys-libs/libomp hwloc offload ompt
 virtual/wine staging
 www-client/firefox hwaccel pulseaudio
 x11-libs/gdk-pixbuf jpeg
